@@ -2,32 +2,38 @@
 <html>
     <head>
         <title>My Resume</title>
-        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <link rel="stylesheet" type="text/css" href="styles.css"/>
     </head>
     <body>
-        <div class="main">
-            <header class="page-header">
-                <h1>This is all about Me <img src="image.jpg"/></h1>
-                <p>My name is Sangeetha Rani. I am a house wife. My husband works in an IT sector.
+        <div id="pic">
+            <img src="image.jpg"/>
+        </div>
+        <header class="page-header">
+            <h1>This is all about Me</h1>
+        </header>
+        <div class="about-me">
+            <p>My name is Sangeetha Rani. I am a house wife. My husband works in an IT sector.
                 We have a son named "Dheera". We have been living here in St. Louis, since 2010.
-                </p>
-            </header>
-            <h2>Educational Qualification</h2>
+            </p>
+        </div>
+        <div class="edu">
+            <h2 style="color:saddlebrown", font-size: 10px;>Educational Qualification</h2>
             <p>I have a diploma in Electronics and communication engineering. And also did few certifications in
                 computer courses. I learnt Prathmic, Madhyama and Rashtrabasha in <a href="https://en.wikipedia.org/wiki/Hindi">
                 hindi</a>. 
                 <br>Now i am here doing LC101.
-                <article class="diploma">
-                    <h5>Diploma</h5>
-                    <p>A diploma is a certificate or deed issued by an educational institution, 
+            </p>
+        <article class="diploma">
+            <h5>Diploma</h5>
+            <p>A diploma is a certificate or deed issued by an educational institution, 
                     such as college or university, that testifies that the recipient has 
                     successfully completed a particular course of study. The word diploma also 
                     refers to an academic award which is given after the completion of study in 
                     different courses such as diploma in higher education, diploma in graduation 
                     or diploma in post graduation etc. .
-                    </p>
-                </article>
             </p>
+        </article>
+            
         </div>
         <main role="main">
             <h3>Work experience</h3>
@@ -40,8 +46,8 @@
                 were tele-calling, accounts, stock maintenance and billing. Worked there for a year.
                 Then i joined as a store keeper in a Nokia priority showroom where my responsibilities were to 
                 run the store, taking care of billing, sales, tele-calling. Then i joined 
-                <a href="https://www.sutherlandglobal.com/" target="_blank">Sutherland global services</a>,
-                it is a BPO in <a href="https://en.wikipedia.org/wiki/Chennai" target="_blank">Chennai</a>,
+                <a style="color: green", href="https://www.sutherlandglobal.com/" target="_blank">Sutherland global services</a>,
+                it is a BPO in <a style="color: green", href="https://en.wikipedia.org/wiki/Chennai" target="_blank">Chennai</a>,
                 where i worked for closed to 5-1/2years in hp, dell and Acer laptops customer
                 and technical support. So i know troubleshooting laptops that has Windows OS.
             </p>
@@ -64,7 +70,7 @@
             </p>
         </main>
         
-        <div class="hobby">
+        <div id="hobby">
             <h3>Hobbies</h3>
             <ul>
                 <li>Listening music</li>
@@ -73,15 +79,15 @@
                 <li>Now full time lc101</li>
             </ul>
         </div>
+        <h5>Contact info</h5>
         <footer>
-           <div id="contact">
-               <h5>Contact info</h5>
-                <p><strong>phone:</strong> 636-000-0000 | 
-                    <strong>email:</strong>sangeetha.sabarinath@gmail.com | <strong>address:</strong> 
-                   Big river drive, Lake st. louis, MO - 63367</p>
-            </div>
+            <p><strong>phone:</strong> 636-000-0000 | 
+                    <strong>email:</strong><a href="mailto:sangeetha.sabarinath@gmail.com">
+                    Sangeetha Rani</a> | <strong>address:</strong> Big river drive, Lake st. louis, MO - 63367</p>
         </footer>
-        <span class="copyright">&copy;</span>My Resume
+        <div class="copy">
+            <span class="copyright">&copy;</span>My Resume
+        </div>
     </body>
     
 </html>
