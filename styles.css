@@ -1,0 +1,115 @@
+header.page-header {
+    background: no-repeat left/cover;
+    display: center;
+    height: 50px;
+    min-width: 50px;
+    align-items: center;
+    color: rgb(87, 7, 7);
+    text-shadow: #000 0 0 .2em;
+    position: relative;
+    top: -70px;
+}
+
+header.page-header > h1 {
+    text-align: center;
+    font: bold;
+    margin: 10%;
+    padding: 10px;
+    position: relative;
+    bottom: 10px;
+}
+
+#pic {
+    text-align: center;
+}
+.about-me p {
+    background-color: darksalmon;
+    color: rgb(163, 7, 7);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main {
+    font: 1rem 'Fira Sans', sans-serif;
+    font-style: oblique;
+    color: olivedrab;
+    background-color: palegreen;
+    position: relative;
+    top: -60px;
+}
+
+h3 {
+    color: darkgreen;
+    font-size: 25px;
+    background-color: rgb(133, 169, 206);
+}
+
+h4 {
+    font-size: 20px;
+    color: rgb(46, 63, 63);
+    background-color: rgb(133, 169, 206);
+}
+
+.diploma p {
+    color: rgb(22, 22, 122);
+    font-size: 12px;
+    font-family: cursive;
+    text-align: justify;
+    position: relative;
+    top: -50px;
+}
+
+.edu {
+    
+    color: rgba(48, 28, 2, 0.767);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+
+.edu p{
+    background-color: bisque;
+}
+
+.diploma {
+        margin: 0;
+        padding: .3rem;
+        color: rgb(43, 226, 89);
+        font-family: 1rem 'Fira Sans', sans-serif;
+    }
+
+#hobby {
+    font-family: "Helvetica", serif;
+    font-size: 15px;
+    color: red;
+    position: relative;
+    top: -50px;
+}
+
+#hobby li {
+    background-color: aquamarine;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+h5 {
+    display: flex;
+    color: rgb(2, 46, 2);
+    background-color: rgb(133, 169, 206);
+    font-size: 15px;
+    position: relative;
+    top: -30px;
+}
+
+footer {
+    padding: 5px 5px;
+    color: rgb(7, 2, 2);
+    background-color: antiquewhite;
+    font-size: 14px;
+    font-family: "Garamound", sans-serif;
+    position: relative;
+    top: -55px;
+}
+
+.copy {
+    position: relative;
+    top: -40px;
+}
