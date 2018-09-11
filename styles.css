@@ -7,7 +7,7 @@ header.page-header {
     color: rgb(87, 7, 7);
     text-shadow: #000 0 0 .2em;
     position: relative;
-    top: -70px;
+    top: -10px;
 }
 
 header.page-header > h1 {
@@ -37,6 +37,10 @@ main {
     top: -60px;
 }
 
+h2 {
+    background-color: rgb(202, 135, 75);
+}
+
 h3 {
     color: darkgreen;
     font-size: 25px;
@@ -49,6 +53,15 @@ h4 {
     background-color: rgb(133, 169, 206);
 }
 
+h5 {
+    display: flex;
+    color: rgb(2, 46, 2);
+    background-color: rgb(202, 135, 75);
+    font-size: 15px;
+    position: relative;
+    top: -30px;
+}
+
 .diploma p {
     color: rgb(22, 22, 122);
     font-size: 12px;
@@ -59,7 +72,8 @@ h4 {
 }
 
 .edu {
-    
+    position: relative;
+    top: 10px;
     color: rgba(48, 28, 2, 0.767);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
 }
@@ -90,15 +104,6 @@ h4 {
     font-weight: bold;
 }
 
-h5 {
-    display: flex;
-    color: rgb(2, 46, 2);
-    background-color: rgb(133, 169, 206);
-    font-size: 15px;
-    position: relative;
-    top: -30px;
-}
-
 footer {
     padding: 5px 5px;
     color: rgb(7, 2, 2);
@@ -112,4 +117,8 @@ footer {
 .copy {
     position: relative;
     top: -40px;
+}
+
+#pic img {
+    transform: rotate(90deg);
 }
